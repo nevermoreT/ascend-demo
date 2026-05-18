@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.o
+*.pt
+*.deb
+.venv/
+custom_ops/build/
+custom_ops/.built
+build/
+.built
+data/
+.wiki/
+.ninja_*
