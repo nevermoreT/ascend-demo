@@ -2,10 +2,12 @@
 
 本文档包含两个定制 CUDA 算子的线程映射详解：
 
-- [Part A: FusedLayerNorm](#part-afusedlayernorm-线程映射详解)
-- [Part B: FusedSoftmaxMask](#part-bfusedsoftmaxmask-线程映射详解)
+- [Part A: FusedLayerNorm 线程映射详解](#part-a-fusedlayernorm)
+- [Part B: FusedSoftmaxMask 线程映射详解](#part-b-fusedsoftmaxmask)
 
 ---
+
+<a id="part-a-fusedlayernorm"></a>
 
 # Part A：FusedLayerNorm 线程映射详解
 
@@ -402,6 +404,8 @@ Thread 1023:
 ```
 
 ---
+
+<a id="part-b-fusedsoftmaxmask"></a>
 
 # Part B：FusedSoftmaxMask 线程映射详解
 

@@ -7,8 +7,8 @@
 - [项目概览](#项目概览)
 - [环境信息](#环境信息)
 - [项目结构](#项目结构)
-- [Part 1：最小 Transformer](#part-1最小-transformer)
-- [Part 2：推理优化](#part-2推理优化)
+- [Part 1：最小 Transformer](#part-1)
+- [Part 2：推理优化](#part-2)
   - [训练](#训练)
   - [交互式翻译](#交互式翻译)
   - [性能基准测试](#性能基准测试)
@@ -88,6 +88,8 @@ ascend-tutorial/
 
 ---
 
+<a id="part-1"></a>
+
 ## Part 1：最小 Transformer
 
 一个完整的 Encoder-Decoder Transformer，任务是将输入数字序列原样复制输出。
@@ -117,6 +119,8 @@ Input: 7881  =>  Predicted: 7881  ✓
 | [embedding_explained.md](01_mini_transformer/embedding_explained.md) | Embedding 原理、与 one-hot 对比、为什么有效 |
 
 ---
+
+<a id="part-2"></a>
 
 ## Part 2：推理优化
 
